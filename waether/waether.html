@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather App by manish</title>
+    <link href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container py-3">
+        <header>
+
+            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom img-svg">
+                <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                    <span class="fs-4">Weather App by manish
+                        <img src="app.svg" alt="">
+                    </span>
+                </a>
+                <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto ">
+
+
+                </nav>
+            </div>
+            <div class="weather-header p-3 pb-md-4 mx-auto text-center color-p">
+                <h1 class="display-4 fw-normal">Weather Forecast</h1>
+                <p class="fs-5 text-muted">Get the latest weather updates for your city. Stay informed and plan your day
+                    accordingly.</p>
+            </div>
+            <div class="input-group mb-3 in-s">
+                <input type="text" id="city-input" class="form-control" placeholder="Enter city name"
+                    aria-label="City name" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="search-button">Search</button>
+            </div>
+
+
+
+        </header>
+        <main>
+            <div id="weather-info" class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <!-- Weather info will be displayed here -->
+            </div>
+        </main>
+
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Delhi</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title weather-card-title">45°C</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Sunny</li>
+                                <li>Humidity: 90%</li>
+                                <li>Wind: 10 km/h</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">More details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Bihar</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title weather-card-title">38°C</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Partly Cloudy</li>
+                                <li>Humidity: 55%</li>
+                                <li>Wind: 15 km/h</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">More details</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Mumbai</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title weather-card-title">42°C</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Cloudy</li>
+                                <li>Humidity: 70%</li>
+                                <li>Wind: 20 km/h</li>
+
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">More details</button>
+                        </div>
+                    </div>
+                </div>
+                -->
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+
+                    </div>
+                </div>
+
+        </main>
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" src="weather.svg" alt="" width="24" height="19">
+                    <small class="d-block mb-3 text-muted">&copy; 2024</small>
+                </div>
+                All copyright reserved || manish weather App
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

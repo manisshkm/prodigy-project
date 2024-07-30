@@ -1,0 +1,231 @@
+* {
+    margin: 15px;
+    padding: -4px
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.max-auto {
+    margin: auto;
+    padding: auto;
+
+}
+
+.align-items {
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+    height: 67px;
+
+
+
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+
+
+}
+
+.bg-red {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+
+}
+
+.section1 {
+    height: 50vh;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.text-blue {
+    color: rgb(17, 17, 27);
+    font-size: 2rem;
+}
+
+.right img {
+    position: relative;
+    right: -201px;
+    width: 30vw;
+    height: 17vw;
+}
+
+.dumbell {
+    top: -18px;
+    width: 137px;
+    height: 83px;
+    position: relative;
+    left: 135px;
+}
+
+.text-centre {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin: 12px 22px;
+    border: 2px solid black;
+    width: 209px;
+    border-radius: 21px;
+
+
+
+}
+
+.section2 {
+    padding-left: 63px;
+    padding-right: 63px;
+
+}
+
+.section2 h1 {
+    font-size: 2rem;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+    position: relative;
+    left: -44px;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.justify-centre {
+    justify-content: center;
+    box-shadow: 2cm;
+}
+
+.HIGHLIGHT {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+}
+
+.justify-centre-ll h1 {
+    text-align: center;
+}
+
+.gh {
+    display: flex;
+}
+
+.height-f {
+    height: 20vw;
+}
+
+.widht-hr {
+    width: 62vw;
+}
+
+.position {
+    position: relative;
+    left: 31vw;
+
+}
+
+.POSI {
+    position: relative;
+    left: 35vw;
+
+
+}
+
+.p {
+    position: relative;
+    left: 39vw;
+}
+
+.position-1 {
+    position: relative;
+    left: 30.5vw;
+
+}
+
+.POSI-1 {
+    position: relative;
+    left: 34.5vw;
+
+}
+
+.p-1 {
+    position: relative;
+    left: 38.5vw;
+}
+
+.position-2 {
+    position: relative;
+    left: 32.5vw;
+}
+
+.POSI-2 {
+    position: relative;
+    left: 36.3vw;
+}
+
+.p-2 {
+    position: relative;
+    left: 40.2vw;
+}
+
+.position-3 {
+    position: relative;
+    left: 30.3vw;
+}
+
+.POSI-3 {
+    position: relative;
+    left: 34vw;
+}
+
+.p-3 {
+    position: relative;
+    left: 38vw;
+}
+
+.position-4 {
+    position: relative;
+    left: 32.5vw;
+}
+
+.POSI-4 {
+    position: relative;
+    left: 36.3vw;
+}
+
+.p-4 {
+    position: relative;
+    left: 40.3vw;
+}
+
+footer {
+    margin: 100px;
+}

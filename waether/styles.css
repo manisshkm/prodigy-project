@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/500/245/273/gentle-girl-in-breeze-of-nice-sunny-day-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img-svg img{
+    position: relative;
+    top: 1px;
+    width: 121px;
+    height: 109px;
+}
+.in-p input{
+    padding: 1px;
+    margin: 26px 20px;
+    border: 2px solid;
+    border-radius: 52px;
+    width: 231px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.color-p p{
+    background-color: aqua;
+    border-radius: 15px;
+}
+.in-p img{
+    position: relative;
+    height: 96px;
+    width: 36px;
+    left: -62px;
+}
+.btn{
+    background-color: aqua;
+    border-radius: 10px;
+}
+.in-s input{
+    border-radius: 10px;
+}

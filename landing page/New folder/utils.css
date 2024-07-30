@@ -1,0 +1,36 @@
+.min-h {
+    height: 80vw;
+
+}
+
+.colorr {
+    color: black;
+    list-style: none;
+    list-style-type: none;
+
+}
+
+.aqua {
+    border: 2px solid rgb(24, 30, 30);
+
+}
+
+.btn {
+    padding: 4px 12px;
+    color: white;
+    background-color: rgb(20, 20, 26);
+    border: 2px solid rgb(6, 6, 17);
+    cursor: pointer;
+
+
+}
+
+.btn :hover {
+    font-size: 30px;
+    background-color: aquamarine;
+}
+
+.heightt {
+    height: 20vw;
+    margin: 100px;
+}
